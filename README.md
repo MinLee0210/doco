@@ -15,7 +15,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>📃 Table of Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -38,32 +38,42 @@
   </ol>
 </details>
 
-## About the project
+## 👀 About the project 
 The project aims to build an AI platform for extracting most weighted features in a documents. To achieve the goal, summarizing and gather strong relation words within a document are focused. The project will experience 2 settings: 
 1. Using AI summarizer as a blackbox. In detail, I will use LLM models and design a prompt to pursue the task. 
-2. Witness 
+2. Using existing researches as use-cases for developments.
+
+## 😚 Getting started
+### 📁 Directory Structures
+```
+  | controller    # where I write functions and prompts
+    | apiv1
+  | models        # models, if it is neccessary to be downloaded, it would be stored here. 
+  | notebooks     # I store demonstrations, explanations, documents, Jupyter notebooks, ...
+  | static        # where I store images: logo, results, ...
+  | views         # for UI
+  .gitignore
+  app.py
+  CHANGELOG.MD
+  config.py
+  README.md
+```
+### 🧐 Prerequisites
+
+### 🤓 Installation
+
+## 🎯 Roadmap
+👉 [x] Using LLM as summarizer. 
+
+👉 [] Using specific design for the task. 
+
+👉 [] Multi-language support (English, Vietnamese, German, ...)
 
 
-## Getting started
-### Prerequisites
-
-### Installation
-
-## Roadmap
-[] Compressing content from textbox.
-[] Compressing content from upload file.
-    [] .pdf
-    [] .docx, .txt, ...
-[] Multi-language support
-    [] English. 
-    [] Vietnamese. 
-    [] Germany.
-
-
-## Contact me:
+## 📨 Contact me:
 + Gmail: minh.leduc.0210@gmail.com
 + Linkedin: https://www.linkedin.com/in/minh-le-duc-a62863172/
 + Github: https://github.com/MinLee0210/DoCo.git
 
-## Acknowledgements
+## 💚 Acknowledgements
 + I took the logo from [Pinterest](https://pin.it/4u1QHJg). 
