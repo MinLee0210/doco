@@ -61,11 +61,16 @@ The project aims to build an AI platform for extracting most weighted features i
 ### 🧐 Prerequisites
 
 ### 🤓 Installation
+```
+  git clone https://github.com/MinLe0210/Doco
+  cd Doco
+  streamlit run app.py # to run the app
+```
 
 ## 🎯 Roadmap
 👉 [x] Using LLM as summarizer. 
 
-👉 [] Using specific design for the task. 
+👉 [] Using a specific design for the task. 
 
 👉 [] Multi-language support (English, Vietnamese, German, ...)
 

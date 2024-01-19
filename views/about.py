@@ -22,15 +22,23 @@ st.markdown(
 st.subheader("About the project")
 st.markdown(
 """
-    Zero-shot learning (ZSL) is a branch of machine learning that tackles a challenging task: how to make models recognize things they've never seen before. 
-    I like to look into its text classification capabilities in this project. 
-    In specifics, users will specify the category details, and the agent will organize the text using the categories they provide without any additional training. 
+
+Clearly, we can see that thanks to the advancement of the technology, the traffic of information becomes more remarkably astonishing. 
+However, the advantage does raise a disturb phenomenon in which a person who need to do research or whose job relate to searching documents becomes drowned. 
+A tool which is able to extract most important features from documents are actually in need. 
+
+Automatic text summarization comes and save the day. Summarize is an act of convey important information from the original text(s). 
+Automatic text summarization is the task of producing a concise and fluent summary while preserving key information content and overall meaning. 
+The task is usually put into question since the action requires human knowledge and language adaptability. 
+However, there are many researches have been raised and prove that, although the quality is not remarkable, but the capability is implement-able and develop-able. 
+
+This project provides an experience for those who inspired by AI-based summarizer.
 """
 )
 
 st.subheader("More details")
 st.markdown(
 """
-    More details about project structure and results of experiments are disscussed in the project's Github repo.
+    More details about project structure and results of experiments are disscussed in [the project's Github repo](https://github.com/MinLee0210/DoCo.git).
 """
 )
