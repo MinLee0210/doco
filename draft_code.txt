@@ -1,0 +1,22 @@
+14/01/2024
+
+# pipeline = transformers.pipeline(
+#     "text-generation",
+#     model=model,
+#     tokenizer=tokenizer,
+#     torch_dtype=torch.bfloat16,
+#     trust_remote_code=True,
+#     device_map="auto",
+#     max_length=config['model']['max_length'],
+#     do_sample=True,
+#     top_k=config['model']['top_k'],
+#     num_return_sequences=config['model']['num_return'],
+#     pad_token_id=tokenizer.eos_token_id
+# )
+# llm = HuggingFacePipeline(pipeline=pipeline, model_kwargs={'temperature': config['model']['temperature']})
+# prompt = PromptTemplate(template=template, input_variables=["text"])
+# llm_chain = LLMChain(prompt=prompt, llm=llm)
+
+Record neccessary libraries: pipreqs --encoding=utf8 <location> --print
+
+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

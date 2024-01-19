@@ -19,31 +19,29 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Directory Structures</a></li>
+        <li><a href="#directory-structures">Directory Structures</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#gallery">Gallery</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>s
+    <li><a href="#acknowledgements">Acknowledgments</a></li>
   </ol>
 </details>
 
-## 👀 About the project 
+<div id='about-the-project'><h2>👀 About the project </h2></div>
 The project aims to build an AI platform for extracting most weighted features in a documents. To achieve the goal, summarizing and gather strong relation words within a document are focused. The project will experience 2 settings: 
 1. Using AI summarizer as a blackbox. In detail, I will use LLM models and design a prompt to pursue the task. 
 2. Using existing researches as use-cases for developments.
 
-## 😚 Getting started
+<div id='getting-started'><h2>😚 Getting started </h2></div>
+<div id='directory-structures'><h3>📁 Directory Structures<h3></div>
 ### 📁 Directory Structures
 ```
   | controller    # where I write functions and prompts
@@ -55,30 +53,39 @@ The project aims to build an AI platform for extracting most weighted features i
   .gitignore
   app.py
   CHANGELOG.MD
+  TODO
   config.py
   README.md
 ```
-### 🧐 Prerequisites
-
-### 🤓 Installation
+<div id='prerequisites'> <h3>🧐 Prerequisites</h3></div>
+<div id='installation'> <h3>🤓 Installation</h3></div>
 ```
   git clone https://github.com/MinLe0210/Doco
   cd Doco
   streamlit run app.py # to run the app
 ```
+<div id='roadmap'><h2>🎯 Roadmap</h2></div>
 
-## 🎯 Roadmap
-👉 [x] Using LLM as summarizer. 
+👉 [] Summarizing from multiple sources: input text, pdf, ...
 
-👉 [] Using a specific design for the task. 
+👉 [] Evaluate LLM model on this task.
 
-👉 [] Multi-language support (English, Vietnamese, German, ...)
+👉 [] Evaluate LLM model on this task.
+<div id='gallery'><h2>Gallery</h2></div>
 
+## 
 
-## 📨 Contact me:
+An example of how the agent works
+<p align="center">
+  <img src="static/result_text_00.png" width="45%" />
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="static/result_text_01.png" width="45%" /> 
+</p>
+
+<div id='contact'><h2>📨 Contact me</h2></div>
 + Gmail: minh.leduc.0210@gmail.com
 + Linkedin: https://www.linkedin.com/in/minh-le-duc-a62863172/
 + Github: https://github.com/MinLee0210/DoCo.git
 
-## 💚 Acknowledgements
-+ I took the logo from [Pinterest](https://pin.it/4u1QHJg). 
+<div id='acknowledgements'><h2>💚 Acknowledgements</h2></div>
++ I took the logo from [Pinterest](https://pin.it/4u1QHJg).
