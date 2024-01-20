@@ -66,8 +66,7 @@ The project aims to build an AI platform for extracting most weighted features i
 ```
 <div id='roadmap'><h2>🎯 Roadmap</h2></div>
 
-👉 This project is done here as its promised functionality. 
-However, we will develop this project in not-too-distant future. Our objective is to use high-level library
+👉 This project is done here as its promised functionality. However, we will develop this project by implementing high-level libraries that focus deeply into AI such as OpenAI or Langchain. we hope that we and you can catch up in not-too-distant future.
 
 <div id='gallery'><h2>Gallery</h2></div>
 
