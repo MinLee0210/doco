@@ -42,6 +42,7 @@ The project aims to build an AI platform for extracting most weighted features i
 
 <div id='getting-started'><h2>😚 Getting started </h2></div>
 <div id='directory-structures'><h3>📁 Directory Structures<h3></div>
+
 ```
   | controller    # where we write functions and prompts
     | apiv1
@@ -56,6 +57,7 @@ The project aims to build an AI platform for extracting most weighted features i
   config.py
   README.md
 ```
+
 <div id='prerequisites'> <h3>🧐 Prerequisites</h3></div>
 <div id='installation'> <h3>🤓 Installation</h3></div>
 
