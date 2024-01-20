@@ -42,7 +42,6 @@ The project aims to build an AI platform for extracting most weighted features i
 
 <div id='getting-started'><h2>😚 Getting started </h2></div>
 <div id='directory-structures'><h3>📁 Directory Structures<h3></div>
-### 📁 Directory Structures
 ```
   | controller    # where we write functions and prompts
     | apiv1
@@ -59,18 +58,18 @@ The project aims to build an AI platform for extracting most weighted features i
 ```
 <div id='prerequisites'> <h3>🧐 Prerequisites</h3></div>
 <div id='installation'> <h3>🤓 Installation</h3></div>
+
 ```
   git clone https://github.com/MinLe0210/Doco
   cd Doco
   streamlit run app.py # to run the app
 ```
+
 <div id='roadmap'><h2>🎯 Roadmap</h2></div>
 
 👉 This project is done here as its promised functionality. However, we will develop this project by implementing high-level libraries that focus deeply into AI such as OpenAI or Langchain. we hope that we and you can catch up in not-too-distant future.
 
 <div id='gallery'><h2>Gallery</h2></div>
-
-## 
 
 An example of how the agent works
 <p align="center">
@@ -80,9 +79,14 @@ An example of how the agent works
 </p>
 
 <div id='contact'><h2>📨 Contact me</h2></div>
+Don't hesitate to contact me via: 
+
 + Gmail: minh.leduc.0210@gmail.com
+
 + Linkedin: https://www.linkedin.com/in/minh-le-duc-a62863172/
+
 + Github: https://github.com/MinLee0210/DoCo.git
 
 <div id='acknowledgements'><h2>💚 Acknowledgements</h2></div>
++ `huggingface`'s API-inference library is an amazaing library for both AI-inspired beginners and developers.
 + I took the logo from [Pinterest](https://pin.it/4u1QHJg).
