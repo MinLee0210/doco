@@ -3,8 +3,6 @@ from st_pages import add_page_title
 
 add_page_title()
 
-# ----- Navigator content ----
-# Let's add some info about the app to the sidebar.
 st.sidebar.write(
     """
     App created by [Minh Le Duc](https://www.linkedin.com/in/minh-le-duc-a62863172/) using [Streamlit](https://streamlit.io/) and [HuggingFace](https://huggingface.co/inference-api).
@@ -22,7 +20,6 @@ st.markdown(
 st.subheader("About the project")
 st.markdown(
 """
-
 Clearly, we can see that thanks to the advancement of the technology, the traffic of information becomes more remarkably astonishing. 
 However, the advantage does raise a disturb phenomenon in which a person who need to do research or whose job relate to searching documents becomes drowned. 
 A tool which is able to extract most important features from documents are actually in need. 
@@ -32,7 +29,8 @@ Automatic text summarization is the task of producing a concise and fluent summa
 The task is usually put into question since the action requires human knowledge and language adaptability. 
 However, there are many researches have been raised and prove that, although the quality is not remarkable, but the capability is implement-able and develop-able. 
 
-This project provides an experience for those who inspired by AI-based summarizer.
+I am inspired by the ability and desired to create an application that pursuit the AI-based summarizer. Thereore, I create this application to demonstrate the
+automatic text summarization which is performed by deep learning. The project is actively developed. In other words, it would be updated and expaned continuously.
 """
 )
 

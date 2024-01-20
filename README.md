@@ -37,18 +37,18 @@
 
 <div id='about-the-project'><h2>👀 About the project </h2></div>
 The project aims to build an AI platform for extracting most weighted features in a documents. To achieve the goal, summarizing and gather strong relation words within a document are focused. The project will experience 2 settings: 
-1. Using AI summarizer as a blackbox. In detail, I will use LLM models and design a prompt to pursue the task. 
+1. Using AI summarizer as a blackbox. In detail, we will use LLM models and design a prompt to pursue the task. 
 2. Using existing researches as use-cases for developments.
 
 <div id='getting-started'><h2>😚 Getting started </h2></div>
 <div id='directory-structures'><h3>📁 Directory Structures<h3></div>
 ### 📁 Directory Structures
 ```
-  | controller    # where I write functions and prompts
+  | controller    # where we write functions and prompts
     | apiv1
   | models        # models, if it is neccessary to be downloaded, it would be stored here. 
-  | notebooks     # I store demonstrations, explanations, documents, Jupyter notebooks, ...
-  | static        # where I store images: logo, results, ...
+  | notebooks     # we store demonstrations, explanations, documents, Jupyter notebooks, ...
+  | static        # where we store images: logo, results, ...
   | views         # for UI
   .gitignore
   app.py
@@ -66,11 +66,9 @@ The project aims to build an AI platform for extracting most weighted features i
 ```
 <div id='roadmap'><h2>🎯 Roadmap</h2></div>
 
-👉 [] Summarizing from multiple sources: input text, pdf, ...
+👉 This project is done here as its promised functionality. 
+However, we will develop this project in not-too-distant future. Our objective is to use high-level library
 
-👉 [] Evaluate LLM model on this task.
-
-👉 [] Evaluate LLM model on this task.
 <div id='gallery'><h2>Gallery</h2></div>
 
 ## 
