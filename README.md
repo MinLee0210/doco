@@ -25,7 +25,6 @@
       <ul>
         <li><a href="#directory-structures">Directory Structures</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -37,6 +36,7 @@
 
 <div id='about-the-project'><h2>👀 About the project </h2></div>
 The project aims to build an AI platform for extracting most weighted features in a documents. To achieve the goal, summarizing and gather strong relation words within a document are focused. The project will experience 2 settings: 
+
 1. Using AI summarizer as a blackbox. In detail, we will use LLM models and design a prompt to pursue the task. 
 2. Using existing researches as use-cases for developments.
 
@@ -45,7 +45,8 @@ The project aims to build an AI platform for extracting most weighted features i
 
 ```
   | controller    # where we write functions and prompts
-    | apiv1
+    | apiv1       => Use HuggingFace's API Inference.
+    | apiv2       => Use LangChain along with HuggingFacePipeline to summarize the task. 
   | models        # models, if it is neccessary to be downloaded, it would be stored here. 
   | notebooks     # we store demonstrations, explanations, documents, Jupyter notebooks, ...
   | static        # where we store images: logo, results, ...
@@ -58,7 +59,6 @@ The project aims to build an AI platform for extracting most weighted features i
   README.md
 ```
 
-<div id='prerequisites'> <h3>🧐 Prerequisites</h3></div>
 <div id='installation'> <h3>🤓 Installation</h3></div>
 
 ```
@@ -90,5 +90,6 @@ Don't hesitate to contact me via:
 + Github: https://github.com/MinLee0210/DoCo.git
 
 <div id='acknowledgements'><h2>💚 Acknowledgements</h2></div>
+
 + `huggingface`'s API-inference library is an amazaing library for both AI-inspired beginners and developers.
 + I took the logo from [Pinterest](https://pin.it/4u1QHJg).
