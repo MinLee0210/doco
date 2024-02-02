@@ -1,2 +1,2 @@
-notebooks/documents
-__pycache__
+**/__pycache__
+models/v2/*
