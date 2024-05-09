@@ -40,6 +40,11 @@ The project aims to build an AI platform for extracting most weighted features i
 1. Using AI summarizer as a blackbox. In detail, we will use LLM models and design a prompt to pursue the task. 
 2. Using existing researches as use-cases for developments.
 
+<div id=''><h2>CURRENT STATUS</h2></div>
+<h1>ON DEVELOPMENT</h1>
+We are changing our system into llama environment.
+
+
 <div id='getting-started'><h2>😚 Getting started </h2></div>
 <div id='directory-structures'><h3>📁 Directory Structures<h3></div>
 
