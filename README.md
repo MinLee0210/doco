@@ -35,17 +35,21 @@
 </details>
 
 <div id='about-the-project'><h2>👀 About the project </h2></div>
-The project aims to build an AI platform for extracting most weighted features in a documents. To achieve the goal, summarizing and gather strong relation words within a document are focused. The project will experience 2 settings: 
+We are developing an advanced system using Large Language Models (LLMs) to automatically summarize various types of documents, including reports, news articles, and meeting transcripts. This project aims to help professionals quickly access key insights, trends, and significant events from extensive textual data, facilitating informed decision-making and improving efficiency across different fields.
 
-1. Using AI summarizer as a blackbox. In detail, we will use LLM models and design a prompt to pursue the task. 
-2. Using existing researches as use-cases for developments.
+Project Features:
 
-<div id=''><h2>CURRENT STATUS</h2></div>
-<h1>ON DEVELOPMENT</h1>
-We are changing our system into llama environment.
-
++ **Context-Aware Summarization**: Capture and highlight relevant information.
++ **Platform Integration**: Seamlessly integrate with existing data platforms.
++ **Sophisticated Sentiment Analysis**: Accurately gauge sentiment in the text.
 
 <div id='getting-started'><h2>😚 Getting started </h2></div>
+<div id=''><h2>📊 CURRENT STATUS</h2></div>
+<h3>⏳ ON DEVELOPMENT</h3>
+
+We apologize for any inconvenience caused as our project undergoes essential updates. During this period, you may experience disruptions or limited access to our services. We appreciate your patience and understanding as we work to enhance our system. Thank you for your continued support.
+
+
 <div id='directory-structures'><h3>📁 Directory Structures<h3></div>
 
 ```
@@ -53,12 +57,13 @@ We are changing our system into llama environment.
     | apiv1       => Use HuggingFace's API Inference.
     | apiv2       => Use LangChain along with HuggingFacePipeline to summarize the task. 
   | models        # models, if it is neccessary to be downloaded, it would be stored here. 
+    | v1
+    | doco        => Use LangChain along with HuggingFacePipeline to summarize the task. 
   | notebooks     # we store demonstrations, explanations, documents, Jupyter notebooks, ...
   | static        # where we store images: logo, results, ...
   | views         # for UI
   .gitignore
   app.py
-  CHANGELOG.MD
   TODO
   config.py
   README.md
@@ -66,19 +71,24 @@ We are changing our system into llama environment.
 
 <div id='installation'> <h3>🤓 Installation</h3></div>
 
+1. Cloning the project
 ```
   git clone https://github.com/MinLe0210/Doco
   cd Doco
+  pip install -r requirements.txt
+```
+2. Run streamlit app
+```
   streamlit run app.py # to run the app
 ```
 
 <div id='roadmap'><h2>🎯 Roadmap</h2></div>
 
-👉 Using API-Inference. 
+- [x] Automated Summarization and Extraction: Automatically summarize documents and extract important features.
 
-👉 Conducting with LLM-Framework. 
+- [ ] Sophisticated Sentiment Analysis: Analyze documents to accurately gauge sentiment.
 
-👉 Building a web application. 
+- [ ] Real-Time Question Answering: Implement Retrieval-Augmented Generation (RAG) for real-time question-answering tasks.
 
 <div id='gallery'><h2>Gallery</h2></div>
 
@@ -97,5 +107,3 @@ Don't hesitate to contact me via:
 + Linkedin: https://www.linkedin.com/in/minh-le-duc-a62863172/
 
 + Github: https://github.com/MinLee0210/DoCo.git
-
-<div id='acknowledgements'><h2>💚 Acknowledgements</h2></div>

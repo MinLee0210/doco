@@ -1,5 +1,10 @@
 Summarize: 
 + Text. 
+    + LangChainGoogle.
 + Document. 
 + Web. 
 + Video. 
+
+Parser: 
++ PDF. 
++ Web
