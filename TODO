@@ -1,10 +1,1 @@
-Summarize: 
-+ Text. 
-    + LangChainGoogle.
-+ Document. 
-+ Web. 
-+ Video. 
-
-Parser: 
-+ PDF. 
-+ Web
+Start with gemini and groq
