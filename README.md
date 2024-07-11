@@ -41,8 +41,8 @@ Project Features:
 + **Platform Integration**: Seamlessly integrate with existing data platforms.
 + **Sophisticated Sentiment Analysis**: Accurately gauge sentiment in the text.
 
-<div id=''><h2>📊 CURRENT STATUS</h2></div>
-<h3>⏳ ON DEVELOPMENT</h3>
+<div id=''><h2>📊 Current status</h2></div>
+<h3>⏳ On development</h3>
 
 We apologize for any inconvenience caused as our project undergoes essential updates. During this period, you may experience disruptions or limited access to our services. We appreciate your patience and understanding as we work to enhance our system. Thank you for your continued support.
 
