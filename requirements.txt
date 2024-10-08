@@ -1,0 +1,7 @@
+beautifulsoup4==4.12.3
+fastapi==0.115.0
+langchain_google_genai==2.0.1
+langchain_groq==0.2.0
+langchain_ollama==0.2.0
+pypdf==5.0.1
+typing_extensions==4.12.2

@@ -1,10 +1,20 @@
-base_summarize = """
+BASE_SUMMARIZE = """
 Please summarize the following text, providing a brief overview of the topic and then highlighting the key points. This summary should be around 5-7 sentences long.
 """
 
+BASE_EXTRACT = """
+Please extract important words in the following text, reponse in the bullet point format. The number of bullet points should be around 5-7.
+"""
 
+MAP_REDUCE = """
+Given the following extracted parts of a long document and a question,
+create a final answer with references (\"SOURCES\"). \nIf you don't know
+the answer, just say that you don't know. Don't try to make up an answer.\
+nALWAYS return a \"SOURCES\" part in your answer.\n\nQUESTION: {question}\
+n=========\nContent: {text}
+"""
 
-chain_of_density = """
+CHAIN_OF_DENSITY = """
 Document: {text}
 You will generate increasingly concise, entity-dense summaries of the
 above document.
