@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/MinLee0210/DoCo.git">
-    <img src="static/logo/CD.png" alt="Logo" width="120" height="120">
+  <a href="https://github.com/MinLee0210/doco.git">
+    <img src="./static/doco_logo.jpeg" alt="Logo" width="120" height="120">
   </a>
 
 <h3 align="center">DoCo-Document Compressor</h3>
@@ -21,6 +21,12 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
+      <a href="#features">Features</a>
+    </li>
+    <li>
+      <a href="#roadmap">Roadmap</a>
+    </li>
+    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#directory-structures">Directory Structures</a></li>
@@ -33,15 +39,15 @@
 </details>
 
 <div id='about-the-project'><h2>👀 About the project </h2></div>
-The project utilizes an advanced system using Large Language Models (LLMs) to automatically summarize various types of documents, including reports, news articles, and meeting transcripts. This project aims to help professionals quickly access key insights, trends, and significant events from extensive textual data, facilitating informed decision-making and improving efficiency across different fields.
 
-Project Features:
+`doco` utilizes an advanced system using Large Language Models (LLMs) to automatically summarize various types of documents, including reports, news articles, and meeting transcripts. This project aims to help professionals quickly access key insights, trends, and significant events from extensive textual data, facilitating informed decision-making and improving efficiency across different fields.
+
+<div id=features><h2>✨ Features</h2></div>
 
 + **Context-Aware Summarization**: Capture and highlight relevant information.
-+ **Platform Integration**: Seamlessly integrate with existing data platforms.
-+ **Sophisticated Sentiment Analysis**: Accurately gauge sentiment in the text.
++ **Content Creator**: Based on a given document, after summarizing, `doco` create a blog, or conduct a research.
 
-<div id=''><h2>📊 Current status</h2></div>
+<div id=''><h2>📊 Roadmap</h2></div>
 <h3>⏳ On development</h3>
 
 We apologize for any inconvenience caused as our project undergoes essential updates. During this period, you may experience disruptions or limited access to our services. We appreciate your patience and understanding as we work to enhance our system. Thank you for your continued support.
