@@ -17,20 +17,17 @@ class Supervisor(BaseAgent):
                 tools=[], 
                 system_prompt=SYSTEM_PROMPT, 
                 instruction="")
-        
-
+        self.options = options
+        self.members = members
     def _build_agent(self, llm, tools: list, system_prompt: str, instruction: str):
         prompt = ChatPromptTemplate.from_messages(
                 [
                     ("system", system_prompt),
                     MessagesPlaceholder(variable_name="messages"),
-                    (
-                        "system",
-                        "Given the conversation above, who should act next?"
-                        " Or should we FINISH? Select one of: {options}",
-                    ),
-                ]
-            ).partial(options=str(options), members=", ".join(members))
 
+                ]
+            )
+        # prompt = prompt.partial(options=str(self.options), members=", ".join(self.members))
+        prompt = prompt.partial(options=str(self.options))
         return prompt | llm.with_structured_output(routeResponse)
         

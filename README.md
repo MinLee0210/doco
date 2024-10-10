@@ -24,7 +24,7 @@
       <a href="#features">Features</a>
     </li>
     <li>
-      <a href="#roadmap">Roadmap</a>
+      <a href="#workflow">Wokflow</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -47,10 +47,9 @@
 + **Context-Aware Summarization**: Capture and highlight relevant information.
 + **Content Creator**: Based on a given document, after summarizing, `doco` create a blog, or conduct a research.
 
-<div id=''><h2>📊 Roadmap</h2></div>
-<h3>⏳ On development</h3>
+<div id=''><h2>📊 Workflow</h2></div>
 
-We apologize for any inconvenience caused as our project undergoes essential updates. During this period, you may experience disruptions or limited access to our services. We appreciate your patience and understanding as we work to enhance our system. Thank you for your continued support.
+![](./static/doco_baseline.png)
 
 <div id='getting-started'><h2>😚 Getting started </h2></div>
 <div id='directory-structures'><h3>📁 Directory Structures<h3></div>
@@ -80,6 +79,10 @@ We apologize for any inconvenience caused as our project undergoes essential upd
 ```
 
 <div id='roadmap'><h2>🎯 Roadmap</h2></div>
+
+<h3>⏳ On development</h3>
+
+We apologize for any inconvenience caused as our project undergoes essential updates. During this period, you may experience disruptions or limited access to our services. We appreciate your patience and understanding as we work to enhance our system. Thank you for your continued support.
 
 - [x] Automated Summarization and Extraction: Automatically summarize documents and extract important features.
 

@@ -15,7 +15,6 @@ n=========\nContent: {text}
 """
 
 CHAIN_OF_DENSITY = """
-Document: {text}
 You will generate increasingly concise, entity-dense summaries of the
 above document.
 Repeat the following 2 steps 5 times.
@@ -46,6 +45,6 @@ i.e., easily understood without the document.
 - Never drop entities from the previous summary. If space cannot be made,
 add fewer new entities.
 Remember, use the exact same number of words for each summary.
-Answer in JSON. The JSON should be a list (length 5) of dictionaries whose
+The result should be a list (length 5) of dictionaries whose
 keys are "Missing_Entities" and "Denser_Summary:. 
 """

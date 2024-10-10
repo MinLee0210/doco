@@ -18,16 +18,29 @@ class ContentCreator(BaseAgent):
 
     def _build_agent(self, llm, tools: list, system_prompt: str, instruction: str):
         """Create an agent's core: allowing function callings and prompting"""
-        prompt = ChatPromptTemplate.from_messages(
+
+        if self.tools: 
+            prompt = ChatPromptTemplate.from_messages(
+                [
+                    (
+                        "system",
+                        "{system_prompt}\n{tool_names}\n{instruction}"
+                    ),
+                    MessagesPlaceholder(variable_name="messages"),
+                ]
+            )
+            prompt = prompt.partial(tool_names=", ".join([tool.name for tool in tools]))
+            return prompt | llm.bind_tools(tools)
+        else: 
+                    prompt = ChatPromptTemplate.from_messages(
             [
                 (
                     "system",
-                    "{system_prompt}\n{tool_names}\n{instruction}"
+                    "{system_prompt}\n{instruction}"
                 ),
                 MessagesPlaceholder(variable_name="messages"),
             ]
         )
         prompt = prompt.partial(system_prompt=system_prompt)
-        prompt = prompt.partial(tool_names=", ".join([tool.name for tool in tools]))
         prompt = prompt.partial(instruction=instruction)
-        return prompt | llm.bind_tools(tools)
+        return prompt | llm

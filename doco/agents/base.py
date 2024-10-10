@@ -24,6 +24,7 @@ class BaseAgent(ABC):
 
     # TODO: Separate tool vs non-tool agent
     def _build_agent(self, llm, tools:list, system_prompt:str, instruction:str): 
+        "An agent has different setting: with/without tools, with/withouth structured output, etc."
         raise NotImplementedError
 
 
